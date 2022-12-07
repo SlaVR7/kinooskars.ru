@@ -1,0 +1,181 @@
+/* Общие настройки страницы */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+body { background-color: #f0f0ea; }
+
+h1, h2, h3, h4, h5 { line-height: normal; }
+h1 { font-size: 1.8em; } h2 { font-size: 1.7em; } h3 { font-size: 1.35em; } h4 { font-size: 1.2em; } h5 { font-size: 1.1em; }
+
+/* настройка ссылок */
+a { color: #f27d03; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img  { border: 0 none; }
+
+/* прочие стили */
+input, textarea, select, body { font: 12px/17px Tahoma, Arial, Verdana, sans-serif; }
+input, textarea, select, a { outline: none; }
+p { margin-bottom: 0.4em; }
+.clr { clear: both; }
+hr { border: 0 none; border-top: 1px solid #d8d8d8; height: 1px; }
+ul { padding-left: 16px; list-style-position:outside; list-style-image:none; }
+ol { list-style-image: none; list-style-position: outside; list-style-type: decimal; margin-left: 2.2em; }
+.inv { display: none; }
+
+/* сброс настроек таблиц и списков */
+table { border-collapse: collapse; border-spacing: 0; }
+.reset, .reset li { list-style: none; padding: 0; margin: 0; }
+
+.lcolomn, .rcolomn, .head { display: inline; }
+.lcolomn, .head { float: left; }
+.rcolomn, .arg { float: right; }
+.thide, .btl b { overflow: hidden; display: block; height: 0; }
+.vnavi li a, .headrss, .vnavi2 li a, .argmore a, .navigation a, .fullv { text-decoration: none !important; }
+
+fieldset { background-color: #fff; padding: 10px; width: 70%; max-width: 700px; margin: 0 auto; text-align: left; }
+
+/*статьи*/
+.base, .basecont { margin-bottom: 2.5em; }
+.basecont { margin: 0 15px; }
+	.base { border-bottom: 3px solid #f5f5f1; }
+
+	.shd { font-weight: normal; font-size: 1.5em; color: #000; margin: 0 15px 0.4em 15px; }
+		.shd a { color: #000; }
+	
+	.shdinfo { font-size: 0.9em; border-top: 1px solid #d8d8d8; height: 30px; padding: 8px 15px 0 15px; background: url("../../templates/ruvideo/images/shdinfo.png") repeat-x; }
+		.shdinfo .arg, .shdinfo .date { float: left; margin-right: 10px; line-height: 21px; }
+		.shdinfo .date a, .shdinfo .date { color: #fff; }
+			.shdinfo .date b, .shdinfo .date { height: 22px; float: left; background: #ff951c url("../../templates/ruvideo/images/date.png") no-repeat; }
+			.shdinfo .date b { padding: 0 8px; font-weight: normal; background-color: transparent; background-position: 100% -22px; }
+			.ratebox { float: right; position: relative; width: 85px; height: 17px; padding: 2px 0; overflow: hidden; margin-left: 10px; }
+
+	/*иконки модератора*/
+	.isicons { float: right; text-align: right; margin-left: 8px; }
+		.isicons ul { display: inline; }
+		.isicons li { float: left; margin-left: 6px; }
+		.isicons li img { vertical-align: middle; }
+
+	.maincont { margin: 0 15px 1em 15px; overflow: hidden; }
+	.morelink { padding: 0 15px; margin-bottom: 18px; }
+		.morelink .arg { float: left; color: #7c7c7c; font-size: 0.9em; }
+		.morelink .arg a { color: #7c7c7c; }
+	
+	/* Кнопка читать далее и назад */
+	.argmore a b, .argmore a { float: right; height: 29px; background: url("../../templates/ruvideo/images/argmore.png") no-repeat 0 -29px; }
+		.argmore a b { float: left; padding: 0 42px 0 12px; background-position: 100% 0; }
+		.argmore a { line-height: 26px; margin-left: 10px; color: #fff; background-color: #ff9e2f; }
+		.argmore a:hover { background-position: 0 -87px; }
+		.argmore a:hover b { background-position: 100% -58px; }
+
+.fullstory { margin-bottom: 10px; }
+
+.fullv { border-bottom: 1px solid #000; width: 100%; color: #fff; background: #ff8500 url("../../templates/ruvideo/images/fullvbg.png") repeat-x; }
+	.fullv span, .fullv b, .fullv i, .fullv { display: block; cursor: pointer; font-style: normal; }
+	.fullv span { background: url("../../templates/ruvideo/images/fullv.png") no-repeat 4px 0; padding: 8px 15px 8px 120px; }
+	.fullv b { font-size: 1.2em; }
+
+.infodload { padding: 8px 15px 8px 53px; font-size: 0.9em; background: #f8f8f6 url("../../templates/ruvideo/images/infodload.png") no-repeat 10px 50%; border-bottom: 1px solid #e7e7e3; }
+	.infodload strong { font-weight: normal; }
+
+.related { background-color: #f8f8f6; padding: 10px 15px; }
+	.related h3 { margin: 0 0 0.4em 0; font-size: 1em; }
+	.related li { margin-bottom: 0.1em; padding-left: 10px; background: url("../../templates/ruvideo/images/vnavi2.png") no-repeat 0 6px; }
+	.related li a { color: #030303; }
+	.related li a:hover { color: #ff8500; }
+
+/*errors*/
+.berrors { margin: 0 15px 15px 15px; font-size: 0.9em; font-style: italic; padding: 6px 10px; background: #fcf7ee url("../../templates/ruvideo/images/berrors.png"); line-height: normal; border: 1px solid #f3e4d9; }
+
+/* большие заголовки */
+.heading { font-weight: normal; font-size: 1.6em; color: #ff8500; margin-bottom: 0.5em; }
+
+/* ==================== Цитата и скрытый текст */
+.scriptcode, .title_quote,
+.quote, .title_spoiler, .text_spoiler { padding: 5px; background-color: #fbfbfa; border: 1px dotted #c2c2be; }
+
+.title_quote { border-bottom: 0; font-weight: bold; }
+.scriptcode { color: #d24000; text-align: left; }
+.title_spoiler { font-weight: bold; }
+.text_spoiler { border-top: 0; text-align: justify; }
+
+
+/* ==================== показ оригинальной картинки загруженной на сайт из уменьшенной копии */
+.highslide-active-anchor img { visibility: hidden; }
+.highslide-dimming { background-color: black; }
+.highslide-image-blur {}
+.highslide-html { background-color: white; }
+.highslide-html-content { display: none; }
+.highslide-loading {
+    display: block;
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 3px;
+	border: 1px solid #fff;
+    background-color: black;
+}
+a.highslide-full-expand {
+	background: url(../../templates/Flexible/dleimages/fullexpand.gif) no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px; height: 34px;
+}
+.highslide-footer { height: 11px; }
+.highslide-footer .highslide-resize {
+	float: right;
+	height: 12px; width: 11px;
+	background: url(../../templates/Flexible/dleimages/resize.gif);
+}
+.highslide-resize { cursor: nw-resize; }
+.highslide-display-block { display: block;}
+.highslide-display-none { display: none;}
+.highslide-caption { display: none; padding: 5px; background: white; }
+.highslide-controls {
+    width: 195px;
+    height: 40px;
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif) 0 -90px no-repeat;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.highslide-controls ul {
+	position: relative;
+	left: 15px;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif) right -90px no-repeat;
+}
+.highslide-controls li { float: left; padding: 5px 0; }
+.highslide-controls a {
+    background: url(../../engine/classes/highslide/graphics/controlbar-black-border.gif);
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+.highslide-controls a.disabled { cursor: default; }
+.highslide-controls a span { display: none; }
+ 
+/* The CSS sprites for the controlbar */
+.highslide-controls .highslide-previous a { background-position: 0 0; }
+.highslide-controls .highslide-previous a:hover { background-position: 0 -30px; }
+.highslide-controls .highslide-previous a.disabled { background-position: 0 -60px !important; }
+.highslide-controls .highslide-play a { background-position: -30px 0; }
+.highslide-controls .highslide-play a:hover { background-position: -30px -30px; }
+.highslide-controls .highslide-play a.disabled { background-position: -30px -60px !important; }
+.highslide-controls .highslide-pause a { background-position: -60px 0; }
+.highslide-controls .highslide-pause a:hover { background-position: -60px -30px; }
+.highslide-controls .highslide-next a { background-position: -90px 0; }
+.highslide-controls .highslide-next a:hover { background-position: -90px -30px; }
+.highslide-controls .highslide-next a.disabled { background-position: -90px -60px !important; }
+.highslide-controls .highslide-move a { background-position: -120px 0; }
+.highslide-controls .highslide-move a:hover { background-position: -120px -30px; }
+.highslide-controls .highslide-full-expand a { background-position: -150px 0; }
+.highslide-controls .highslide-full-expand a:hover { background-position: -150px -30px; }
+.highslide-controls .highslide-full-expand a.disabled { background-position: -150px -60px !important; }
+.highslide-controls .highslide-close a { background-position: -180px 0; }
+.highslide-controls .highslide-close a:hover { background-position: -180px -30px; }
+
+
