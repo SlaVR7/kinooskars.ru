@@ -143,6 +143,7 @@ header {
     border-radius: 50px;
     color: red;
     outline: none;
+    height: inherit;
 }
 
 .header__right {
