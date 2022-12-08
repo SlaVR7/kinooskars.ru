@@ -94,7 +94,7 @@ header {
     padding-right: 10px;
     font-size: 18px;
     background-color: #292929;
-    box-shadow: 0px 0px 4px 2px rgba(41, 41, 41, 1);
+    box-shadow: 0 0 4px 2px rgba(41, 41, 41, 1);
 }
 
 .burger {
@@ -143,6 +143,7 @@ header {
     border-radius: 50px;
     color: white;
     outline: none;
+    height: inherit;
 }
 
 .header__right {
@@ -197,7 +198,7 @@ header {
     display: flex;
     background-color: white;
     height: 185px;
-    box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 4px 2px rgba(255, 255, 255, 1);
 }
 
 .logo {
@@ -255,7 +256,7 @@ main {
 }
 
 h1, h2 {
-    box-shadow: 0px 0px 2px 1px rgba(41, 41, 41, 1);
+    box-shadow: 0 0 2px 1px rgba(41, 41, 41, 1);
 }
 
 h1 {
@@ -713,7 +714,7 @@ footer {
     content: '…';
     position: absolute;
     right: 16px;
-    bottom: 0px;
+    bottom: 0;
   }
 
    
